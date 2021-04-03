@@ -10,7 +10,7 @@ echo "#########################"
 echo "Start Script?"
 echo "Y/n"
 read ANS
-if [ "$ANS" == "Y" ]
+if [ "$ANS" == "Y" ] || [ "$ANS" == "y" ]
     then
         echo "Starting"
         echo "Searching Apache2"
